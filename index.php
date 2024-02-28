@@ -1,3 +1,19 @@
+
+<?php
+
+
+
+
+?>
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,14 +29,15 @@
 
     <div class="container mt-5">
         <h2>Crea la tua nuova Password:</h2>
-        <form method="GET" class="row">
-            <div class="col-10" >
-            <input" type="text" class="form-control" name="password">
-            </div>
-            <div class="col-2" >
-                <button class="btn btn-success">Genera Password</button>
-            </div>
-        </form>
+        <div class="col-2" >
+            <button class="btn btn-success">Genera Password</button>
+        </div>
+        <div class="col-6" >
+            <form method="GET" class="row">
+                
+            <input type="text" class="form-control" name="password">
+            </form>
+        </div>
     </div>
     
 </body>
